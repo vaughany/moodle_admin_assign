@@ -2,6 +2,8 @@
 
 A drop-in script for Moodle 2 to create a new site-wide admin role, then assign an existing Moodle user to it.
 
+Tested against the most recent stable builds (at the time of writing) of Moodle 2.0, 2.1, 2.2 and 2.6.
+
 Available online here: [github.com/vaughany/moodle\_admin\_assign](https://github.com/vaughany/moodle_admin_assign)
 
 ## Why?
@@ -28,7 +30,7 @@ If you are already logged in as the user you 'upgraded', you will need to log ou
 
 ## History
 
-This script is mostly based on [Petr Skoda](https://moodle.org/user/profile.php?id=12863)'s 2007 script, which can be found here [moodle.org/mod/forum/discuss.php?d=66281](https://moodle.org/mod/forum/discuss.php?d=66281#p298436).  It has been updated to Moodle 2 (tested on 2.6) in June 2014 by [Paul Vaughan](https://github.com/vaughany).
+This script is mostly based on [Petr Skoda](https://moodle.org/user/profile.php?id=12863)'s 2007 script, which can be found here [moodle.org/mod/forum/discuss.php?d=66281](https://moodle.org/mod/forum/discuss.php?d=66281#p298436).  It has been updated to Moodle 2 (tested on 2.0, 2.1, 2.2 and 2.6) in June 2014 by [Paul Vaughan](https://github.com/vaughany).
 
 ## To-do
 
