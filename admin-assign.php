@@ -9,7 +9,7 @@
 
 // Replace your_username inside the quotes with the username of the user you want to have admin rights.
 // Note: This user must already exist in the Moodle database.
-$username = 'poop';
+$username = 'your_username';
 
 // Okay, that's it, don't change anything below this line. :)
 
