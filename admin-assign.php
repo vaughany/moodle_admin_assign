@@ -79,7 +79,7 @@ if (!$emergencyrole) {
 $res = role_assign($adminroleid, $user->id, $systemcontext);
 echo "User assigned to role.<br>\n";
 
-echo "<p>Done. User $user->firstname $user->lastname has been given admin rights. Please remove the 'Emergency Admin' role as soon as you are able.</p>\n";
+echo "<p>Done. User $user->firstname $user->lastname ($username) has been given admin rights to the Moodle site located at <a href=\"$CFG->wwwroot\">$CFG->wwwroot</a>. Please remove the 'Emergency Admin' role as soon as you are able.</p>\n";
 
 echo '<ul><li><a href="'.$CFG->wwwroot.'">Moodle front page</a></li>';
 echo '<li><a href="'.$CFG->wwwroot.'/admin/">Admin (notifications) page</a></li>';
